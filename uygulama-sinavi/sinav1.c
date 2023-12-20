@@ -54,5 +54,4 @@ int main(){
     //kac rakam ve harf oldugu hesaplanip yazdirilir
     printf("%d Tane Harf Girdiniz.\n",kh+bh);
     printf("%d Tane Rakam Girdiniz.\n",rakam);
-
 }
