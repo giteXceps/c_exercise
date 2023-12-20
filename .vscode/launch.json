@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/sefam/OneDrive/Masaüstü/c/problemler",
-      "program": "c:/Users/sefam/OneDrive/Masaüstü/c/problemler/build/Debug/outDebug",
+      "cwd": "c:/Users/Sefa/Desktop/c_exercise/fonksiyon_problemleri",
+      "program": "c:/Users/Sefa/Desktop/c_exercise/fonksiyon_problemleri/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
