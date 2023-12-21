@@ -3,6 +3,7 @@
 
 /*
 
+//fonksiyon ile hata yazdırma
 void hatayibas(int hata){
     printf("Hata kodu %d",hata);
 }
@@ -22,6 +23,8 @@ int main(){
 
 */
 /*
+
+//fonksiyon ile toplama
 int topla(int sayi1, int sayi2){
     return (sayi1+sayi2);
 }
@@ -37,6 +40,9 @@ int main(){
 
 }
 */
+
+
+//faktöriyel hesaplama (fonksiyon ile)
 int fact(int sayi){
     int fact=1;
     for(;sayi>0;sayi--){
@@ -44,7 +50,6 @@ int fact(int sayi){
     }
     return fact;
 }
-
 
 int main(){
 
@@ -54,3 +59,4 @@ int main(){
     printf("%d",fact(n));
 
 }
+
