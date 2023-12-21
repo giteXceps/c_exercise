@@ -5,7 +5,7 @@
 int main(){
 
     int sayac=0;
-    srand(time(0));
+    srand(time(NULL));
 
     int m[3][3];
     for(int i=0;i<3;i++){
