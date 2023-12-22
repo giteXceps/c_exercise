@@ -1,5 +1,5 @@
 #include<stdio.h>
-//fonksiyonlar ornek ve calisma
+//fonksiyonlar ornek ve calismalar
 
 /*
 
