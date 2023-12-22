@@ -5,12 +5,13 @@
         0 girerse döngüden çık,
         her karakter girdiğinde bu karakter rakam mı harf mi onu yazdıracaksın, 
         kaç rakam ve kaç harf girildi
+
         ascıı: 
         a ile z arası harf kucuk harfler 90-122 ve büyük 65-90
         0 ile 9 arası rakam 48-57
         
     */
-
+   
 int main(){
     
     //gerekli olan degisken tanimlamalari

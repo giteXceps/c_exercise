@@ -26,7 +26,6 @@ int basamakDegeri(int n){
     int sonuc;
     sonuc=0;
     sonuc=n%10;
-    
     return sonuc;
 }
 //sayinin son basamagini bulan fonksiyon
