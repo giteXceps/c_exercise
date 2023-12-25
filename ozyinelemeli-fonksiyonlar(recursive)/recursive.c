@@ -29,3 +29,15 @@ int main(){
     printf("%d ",sonuc);
 }
 */
+
+int fact(int n){
+    if(n<=1){
+        return 1;
+    }
+    return n*fact(n-1);
+}
+
+int main(){
+    int sayi=10;
+    printf("%d!=%d\n",sayi,fact(sayi));
+}
