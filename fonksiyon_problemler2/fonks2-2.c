@@ -10,7 +10,7 @@ void diziYazdir(int arr[],int n){
 
 }
 
-void tersKopya(int* kaynak, int* ters, int n){
+void tersKopya(int kaynak[], int ters[], int n){
     for(int i=0;i<n;i++){
         ters[i]=kaynak[n-1-i];
     }
