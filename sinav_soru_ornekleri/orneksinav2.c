@@ -1,4 +1,5 @@
 #include<stdio.h>
+//Girilen 20 sayinin pozitif olanlarini bir diziye aktarip sayilarin ortalamasini ve diziyi yazdiran c programini yazınız:
 
 int main(){
 

@@ -1,4 +1,5 @@
 #include<stdio.h>
+//Asagida yazilmis olan kodun ciktisini yaziniz.
 
 int main(){
     char A[]="ab1234";
@@ -18,3 +19,5 @@ int main(){
         printf("%c",C[i]);
     }
 }
+
+// Cevap=121234

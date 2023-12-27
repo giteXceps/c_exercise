@@ -1,4 +1,5 @@
 #include<stdio.h>
+//girilen sayiya kadar olan tek sayilarin karesini alıp ekrana yazdiran c programini yaziniz:
 
 int main(){
     int n, i;
