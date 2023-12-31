@@ -16,7 +16,7 @@ int ebob(int num1, int num2) {
 int main() {
     int a, b;
 
-    printf("Iki sayi giriniz: ");
+    printf("Sirasiyla iki sayi giriniz: \n");
     scanf("%d %d", &a, &b);
 
     int sonuc = ebob(a, b);
