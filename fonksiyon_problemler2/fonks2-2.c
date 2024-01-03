@@ -3,11 +3,9 @@
 //Tanımlanan bir diziyi ters cevirip ikisini de yazdiran fonksiyon
 
 void diziYazdir(int arr[],int n){
-
     for(int i=0;i<n;i++){
         printf("%d ",arr[i]);
     }
-
 }
 
 void tersKopya(int kaynak[], int ters[], int n){
