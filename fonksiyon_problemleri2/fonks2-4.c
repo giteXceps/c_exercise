@@ -16,7 +16,7 @@ int main(){
     gets(kelime2);
 
     if(elemanSayisi(kelime1)!=elemanSayisi(kelime2)){
-        printf("Girmis oldugunuz iki kelimede ki harf sayilari farklidir");
+        printf("Girmis oldugunuz iki kelimede ki karakter sayilari farklidir");
     }
     else {
         printf("Girmis oldugunuz iki kelimenin karakter sayisi aynidir.");

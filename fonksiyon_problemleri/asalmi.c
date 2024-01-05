@@ -2,15 +2,12 @@
 #include <stdio.h>
 
 int asalmi(int sayi){
-
     int i;
-
-    for(i=2;i<sayi/2;i++){
+    for(i=2;i<sayi;i++){
         if (sayi%i==0){
             return 0;
             }
     }
-
     return 1;
 }
 
