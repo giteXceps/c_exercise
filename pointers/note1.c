@@ -2,6 +2,13 @@
     // & degiskenin adres bilgisini verir 
     // * adresteki degeri verir
 
+    int dizi[4]={1,2,23,2};
+    int *ptr=dizi;
+    dizinin adresini kullanmadık çünkü dizinin ilk elemanı zaten adres tutar.
+
+    
+
+
 */
 
 
@@ -21,7 +28,7 @@ int main(){
     printf("%d",*p);
 */
 
-/*
+
 int a=5, *ap;
 float b=3.2, *bp;
 double c=3.412, *cp;
@@ -39,10 +46,10 @@ arrayp=&sayilar[1];
 
 printf("%u adresindeki intin degeri %d\n",ap,*ap);
 printf("%u adresindeki floatin degeri %f\n",bp,*bp);
-printf("%u adresindeki doblebib degeri %lf\n",cp,*cp);
+printf("%u adresindeki doublenin degeri %lf\n",cp,*cp);
 printf("%u adresindeki charin degeri %c\n",dp,*dp);
 printf("%u adresindeki sayilarin degeri %d\n",arrayp,*arrayp);
-*/
+
 
 /*
 int i,j=1;
