@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
+
 //Girilen 5 adet sayıyı bir diziye aktardıktan sonra bu diziyi pointer kullanarak tersten yazdırınız.
 
 int main(){
