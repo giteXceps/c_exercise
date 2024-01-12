@@ -11,9 +11,7 @@ int main(){
     for(int i=0;i<5;i++){
         scanf("%d",&dizi[i]);
     }
-
-    int *pDizi=(int*)malloc(sizeof(int)*5);
-
+    int *pDizi;
     pDizi=&dizi[0];
     for(int i=4;i>=0;i--){
         printf("%d\t",*(pDizi+i));
