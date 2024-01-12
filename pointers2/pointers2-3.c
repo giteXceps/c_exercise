@@ -1,19 +1,19 @@
-#include<stdlib.h>
 #include<stdio.h>
+#include <stdlib.h>
 //Girilen bir kelimenin uzunluğunu pointer kullanarak bulunuz.
 
 int main(){
-    char kelime[50];
-    printf("Lutfen bir kelime giriniz: ");
-    gets(kelime);
-    
-    char *p;
-    p=&kelime[0];
+    char kelime; //pointer ile karakter dizisi tanımladı
+    int uzunluk=0;  //uzunluk değişken
+    char *p = &kelime;
 
-    int i;
-    for(i=0;*(p+i)!='\0';i++){
-        i++;
+    printf("Lütfen bir kelime giriniz: ");
+    scanf("%c",&kelime);
+
+    while(*p!='\0'){ //döngüye giris
+        uzunluk++;     //her defada birer arttır
+        p++;      //sonraki elemana geç
     }
-
-    printf("Girdiginiz kelime %d tane karakterden olusmaktadir.",i);
+    printf("\nKelimenin uzunlugu %d karakterdir.",uzunluk);
+    
 }
