@@ -66,4 +66,5 @@ printf("i=%d, j=%d, *jp1=%d, jp2=%d\n",i,j,*jp1,*jp2);
 int x=5,y=10;
 degerdegistir(&x,&y);
 printf("\nx= %d, y=%d",x,y);
+
 }
