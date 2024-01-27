@@ -22,7 +22,6 @@ int main()
     {
         for (int j = 0; j < 3; j++)
         {
-
             if (j == 0)
                 matris[i][j] = i + 1;
 
@@ -30,7 +29,7 @@ int main()
                 matris[i][j] = matris[i][0] * matris[i][0];
 
             if (j == 2)
-                matris[i][2] = fact(matris[i][0]);
+                matris[i][j] = fact(matris[i][0]);
         }
     }
 
