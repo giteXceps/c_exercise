@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-//10 terimli dizinin en buyuk ve kucuk teriminin toplamini recurice functions yardımı ile bulan program
+//10 terimli dizinin en buyuk ve kucuk teriminin toplamini recursive functions yardımı ile bulan program
 
 int maxBul(int dizi[],int bas,int son,int max){
     

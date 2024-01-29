@@ -29,4 +29,9 @@ int main(){
     int *result=&t;
     toplam(n, arr, result);//calling function with dynamic parameters
     printf("Sum of entered numbers: %d",*result);
+
+    free(arr);
+    free(result);
+    
+    return 0;
 }
